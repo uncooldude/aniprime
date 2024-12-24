@@ -166,7 +166,7 @@ export default function Watch() {
       },
       {
         condition: animeInfo?.animeInfo?.tvInfo?.quality,
-        bgColor: "#FFBADE",
+        bgColor: "#3324f2",
         text: animeInfo?.animeInfo?.tvInfo?.quality,
       },
       {
@@ -206,7 +206,7 @@ export default function Watch() {
                 <li key={index} className="flex gap-x-3 items-center">
                   <Link
                     to={`/${link}`}
-                    className="text-white hover:text-[#FFBADE] text-[15px] font-semibold"
+                    className="text-white hover:text-[#3324f2] text-[15px] font-semibold"
                   >
                     {text}
                   </Link>
@@ -307,14 +307,14 @@ export default function Watch() {
                         key={index}
                         className={`relative w-[20%] h-[60px] rounded-lg overflow-hidden cursor-pointer group ${
                           animeId === String(season.id)
-                            ? "border border-[#ffbade]"
+                            ? "border border-[#3324f2]"
                             : ""
                         } max-[1200px]:w-[140px] max-[575px]:w-full`}
                       >
                         <p
-                          className={`text-[13px] text-center font-bold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full px-2 z-30 line-clamp-2 group-hover:text-[#ffbade] ${
+                          className={`text-[13px] text-center font-bold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full px-2 z-30 line-clamp-2 group-hover:text-[#3324f2] ${
                             animeId === String(season.id)
-                              ? "text-[#ffbade]"
+                              ? "text-[#3324f2]"
                               : "text-white"
                           }`}
                         >
@@ -482,7 +482,7 @@ export default function Watch() {
           className="w-[60px] h-auto rounded-full max-[1024px]:w-[40px] max-[575px]:hidden"
         />
         <div className="flex flex-col w-fit">
-          <p className="text-[15px] font-bold text-[#FFBADE]">Share Anime</p>
+          <p className="text-[15px] font-bold text-[#3324f2]">Share Anime</p>
           <p className="text-[16px] text-white">to your friends</p>
         </div>
       </div>
