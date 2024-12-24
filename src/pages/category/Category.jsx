@@ -58,14 +58,14 @@ function Category({ path, label }) {
           className="w-[60px] h-auto rounded-full max-[1024px]:w-[40px] max-[575px]:hidden"
         />
         <div className="flex flex-col w-fit">
-          <p className="text-[15px] font-bold text-[#FFBADE]">Share Anime</p>
+          <p className="text-[15px] font-bold text-[#3324f2]">Share Anime</p>
           <p className="text-[16px] text-white">to your friends</p>
         </div>
       </div>
       {categoryInfo ? (
         <div className="w-full px-4 grid grid-cols-[minmax(0,75%),minmax(0,25%)] gap-x-6 max-[1200px]:flex max-[1200px]:flex-col max-[1200px]:gap-y-10">
           {page > totalPages ? (
-            <p className="font-bold text-2xl text-[#ffbade] max-[478px]:text-[18px] max-[300px]:leading-6">
+            <p className="font-bold text-2xl text-[#3324f2] max-[478px]:text-[18px] max-[300px]:leading-6">
               You came a long way, go back <br className="max-[300px]:hidden" />
               nothing is here
             </p>
