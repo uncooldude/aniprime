@@ -11,7 +11,7 @@ function Footer() {
         className="w-full text-left max-[500px]:hidden"
       >
         <img
-          src="https://iili.io/2H76i57.png"
+          src="https://iili.io/2OYGxUv.png"
           alt={logoTitle}
           className="w-[200px] h-[100px]"
         />
